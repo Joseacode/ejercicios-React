@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import Contador from "./components/Contador.jsx";
 import Eventos from "./components/Eventos.jsx";
 import Parrafo from "./components/Parrafo.jsx"
 import Variables from "./components/Variables.jsx";
@@ -17,6 +18,7 @@ function App() {
             <Parrafo />
             <Variables />
             <Eventos />
+            <Contador />
         </Fragment>
   );
 }
