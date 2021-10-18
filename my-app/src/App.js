@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
+import Formulario from "./components/Formulario.jsx";
 //import Contador from "./components/Contador.jsx";
 //import Eventos from "./components/Eventos.jsx";
-import Listas from "./components/Listas.jsx";
+//import Listas from "./components/Listas.jsx";
 //import Parrafo from "./components/Parrafo.jsx"
 //import Variables from "./components/Variables.jsx";
 
@@ -16,11 +17,12 @@ function App() {
 
         <Fragment>
             <h1>Hola Munndo React</h1>
-            {/*<Parrafo />*/}
-            {/*<Variables />*/}
-            {/*<Eventos />*/}
-            {/*<Contador />*/}
-            <Listas />
+            {/*<parrafo />*/}
+            {/*<variables />*/}
+            {/*<eventos />*/}
+            {/*<contador />*/}
+            {/*<listas />*/}
+            <Formulario />
         </Fragment>
   );
 }
