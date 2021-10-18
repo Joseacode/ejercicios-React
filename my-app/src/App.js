@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
-import Contador from "./components/Contador.jsx";
-import Eventos from "./components/Eventos.jsx";
-import Parrafo from "./components/Parrafo.jsx"
-import Variables from "./components/Variables.jsx";
+//import Contador from "./components/Contador.jsx";
+//import Eventos from "./components/Eventos.jsx";
+import Listas from "./components/Listas.jsx";
+//import Parrafo from "./components/Parrafo.jsx"
+//import Variables from "./components/Variables.jsx";
 
 
 //La etiqueta <Fragment> Reemplaza la etiqueta <div>  y es equivalente a <></>
@@ -15,10 +16,11 @@ function App() {
 
         <Fragment>
             <h1>Hola Munndo React</h1>
-            <Parrafo />
-            <Variables />
-            <Eventos />
-            <Contador />
+            {/*<Parrafo />*/}
+            {/*<Variables />*/}
+            {/*<Eventos />*/}
+            {/*<Contador />*/}
+            <Listas />
         </Fragment>
   );
 }

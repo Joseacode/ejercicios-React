@@ -7,7 +7,7 @@ const Variables = () => {
     return (
         <div>
             <h2>Nuevo Componente {saludo}</h2>
-            <img src={ imagen } />
+            <img src={ imagen } alt=""></img>
         </div>
     )
 }
