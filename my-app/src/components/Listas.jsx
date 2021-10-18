@@ -11,14 +11,24 @@ const Listas = () => {
     ]
     const [lista, setLista] = useState(estadoInicial)
 
+    const agregarElemento = () => {
+        console.log('click')
+        setLista([
+            ...lista,
+            { id: 4, tarea: "tarea 4" }
+        ])
+    }
+
     return (
         <Fragment>
             <h2>Listas</h2>
             {
                 lista.map((item, index) => (
-                    <h4 key={item.id}>{item.tarea}</h4>
+                    <h4 key={index}>{item.tarea}</h4>
                 ))
             }
+
+            <button onClick={() => agregarElemento()}>Click</button>
         </Fragment>
     )
 }
