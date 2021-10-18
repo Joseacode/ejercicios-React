@@ -14,7 +14,12 @@ const Contador = () => {
     return (
         <Fragment>
             <h2>Contador</h2>
-            <h2>Numero aumentando { contador }</h2>
+            <h2>Numero aumentando {contador}</h2>
+            <h2>
+                {contador > 2 ? "Es mayor a Dos" : "Es Menor a Dos"}
+            </h2>
+
+
             {/*<button onClick={() => aumentar()}>Click</button>*/}
             <button onClick={() => setContador(contador + 1)}>Click</button>
         </Fragment>
